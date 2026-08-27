@@ -1,0 +1,36 @@
+[project]
+name = "test_fastapi"
+version = "0.1.0"
+description = "Default template for PDM package"
+authors = [
+  {name = "yruano", email = "ckrmidjskk@naver.com"},
+]
+dependencies = [
+    "fastapi>=0.110.0",
+    "alembic>=1.13.1",
+    "sqlalchemy>=2.0.28",
+    "pydantic[email]>=2.6.4",
+    "passlib[bcrypt]>=1.7.4",
+    "python-multipart>=0.0.9",
+    "python-jose[cryptography]>=3.3.0",
+    "pymysql>=1.1.0",
+    "mariadb>=1.1.10",
+    "matplotlib>=3.9.0",
+    "tensorflow>=2.15.1",
+    "pandas>=2.2.2",
+    "sklearn>=0.0.post12",
+    "scikit-learn>=1.5.0",
+    "torch>=2.3.1",
+    "opencv-python>=4.10.0.82",
+    "models>=0.9.3",
+    "rembg>=2.0.57",
+    "ultralytics>=8.2.31",
+    "extcolors>=1.0.0",
+]
+requires-python = "==3.11.*"
+readme = "README.md"
+license = {text = ""}
+
+
+[tool.pdm]
+distribution = false
